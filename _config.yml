@@ -1,28 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Lê Quốc Dũng"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Lê Quốc Dũng"
+description              : "Chia sẻ mọi điều thú vụ trong cuộc sống."
+url                      :  "https://lqdungdt.github.io/lqdung3/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -42,25 +28,25 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 5 (default)
+    colorscheme          : "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" (default), "github-dark"
+    issue_term           : "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
     category_id          : # Shown during giscus setup at https://giscus.app
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "light" (default)
     strict               : # 1 for enabled, 0 for disabled (default)
     input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
     emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
     lang                 : # "en" (default)
     lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
-    branch               : # "master"
+    branch               : "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
@@ -113,15 +99,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Lê Quốc Dũng"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "Vietnam"
+  email            : "lqdung3@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "lqdung3@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -159,7 +145,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  since: "2025"
 
 
 # Reading Files
